@@ -13,7 +13,7 @@ Hexo 版本 : [github.com/solstice23/hexo-theme-argon](https://github.com/solsti
 
 # 状态
 
-> 重构初步完成，1.x 版本将冻结开发，PR 请提交到 [dev](https://github.com/solstice23/argon-theme/tree/dev) 分支。后续将逐渐重构前端代码。
+> 重构初步完成，1.x 版本将冻结开发，PR 请提交到 [dev](https://github.com/solstice23/argon-theme/tree/dev) 分支。后续将逐渐重构前端代码。updating readme just to see if webhook works
 
 
 # 特性
