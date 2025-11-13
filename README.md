@@ -75,6 +75,7 @@ Argon 使用 [GPL V3.0](https://github.com/solstice23/argon-theme/blob/master/LI
 自动推送更新消息以及其他关于 Argon 的消息
 
 # 更新日志
+test for github webhook
 
 ## 20220319 v1.3.5
 + 支持自定义 CDN 域名
