@@ -1,0 +1,11 @@
+{
+  "name": "argon-theme-e2e",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cucumber-js tests/features/**/*.feature --require tests/steps/**/*.js --publish-quiet"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "playwright": "^1.49.0"
+  }
+}
