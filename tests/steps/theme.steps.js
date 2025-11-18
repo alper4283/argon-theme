@@ -14,11 +14,12 @@ Then('the body should have theme class {string}', async function (expectedClass)
 });
 
 Then('I should see the post header {string}', async function (expectedHeader) {
-  const locator = this.page.locator('h1.entry-title, h1');
-  const text = await locator.first().innerText();
+  const locator = this.page.locator('a.post-title');
+  const text = (await locator.first().innerText()).trim();
+
   assert.strictEqual(
-    text.trim(),
+    text,
     expectedHeader,
-    `Expected first <h1> to be "${expectedHeader}", got "${text}"`
+    `Expected first .post-title to be "${expectedHeader}", got "${text}"`
   );
 });
